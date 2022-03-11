@@ -1,0 +1,5 @@
+if not CreateSimpleMenuS then 
+   CreateSimpleMenuS = function(...)
+      return exports['nbk_scaleform_simplemenu']:CreateSimpleMenuS(...)
+   end 
+end 
