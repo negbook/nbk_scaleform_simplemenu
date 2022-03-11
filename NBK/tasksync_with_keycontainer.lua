@@ -702,6 +702,7 @@ Public License instead of this License.  But first, please read
                 end 
             end 
         end 
+        
         local OnPress = function(key,mapper)
             getcbs(key,mapper,"JUST_PRESSED",function(group,namespace,cb)
                  cb("JUST_PRESSED",group,namespace);
@@ -857,7 +858,7 @@ Public License instead of this License.  But first, please read
                     duration2 = duration2 
                 }
 
-                else error ("callback existed",2)
+                else --error ("callback existed",2)
                 end
                 if isNew then 
                     if cbtype == "PRESSED" then  

@@ -12,8 +12,7 @@ client_scripts {
 'NBK/tasksync_with_keycontainer.lua',
 'NBK/NBMenuSimpleS.lua',
 'client/draw.lua',
-'client/main.lua',
-'example.lua'
+'client/main.lua'
 }
 
 server_scripts {
